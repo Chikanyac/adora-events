@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: { fontFamily: { display: ['Cormorant Garamond','serif'], sansx: ['Inter','sans-serif'] } } } }
+</script>
+<style>
+body{font-family:'Inter',sans-serif; background:#fcfaf7; color:#111;}
+.font-display{font-family:'Cormorant Garamond',serif;}
+.font-sansx{font-family:'Inter',sans-serif;}
+.label-micro{font-family:'Inter',sans-serif; font-size:10px; letter-spacing:0.22em; text-transform:uppercase; opacity:0.5;}
+.input-underline-light{width:100%; background:transparent; border:0; border-bottom:1px solid rgba(0,0,0,0.15); padding:12px 0; outline:none;}
+.input-underline-light:focus{border-bottom-color:#111;}
+.reveal{opacity:1;}
+</style>
+
+  <title>Adora Events - Contract</title>
+</head>
+<body class="selection:bg-[#c6a87c]/30">
+
+<header class="sticky top-0 z-50 bg-[#fcfaf7]/90 backdrop-blur-xl border-b border-black/[0.06]">
+  <div class="mx-auto max-w-[1320px] px-6 md:px-10 h-[72px] flex items-center justify-between">
+    <a href="home.html" class="flex items-center gap-2">
+      <span class="font-display text-[22px] tracking-tight">ADORA</span>
+      <span class="font-sansx text-[10px] tracking-[0.22em] opacity-60 -translate-y-1">EVENTS</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8"><a href="home.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Home</a>
+<a href="work.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Work</a>
+<a href="services.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Services</a>
+<a href="contract.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-100 underline underline-offset-8 decoration-[#c6a87c]">Contract</a>
+<a href="journal.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Journal</a>
+<a href="book.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Book</a>
+</nav>
+    <a href="book.html" class="hidden md:inline-flex h-[44px] px-7 items-center rounded-full bg-[#0a0a0b] text-white font-sansx text-[11px] tracking-[0.18em] uppercase">Inquire</a>
+    <button onclick="document.getElementById('mobile-nav').classList.toggle('hidden')" class="md:hidden font-sansx text-[11px] tracking-widest uppercase">Menu</button>
+  </div>
+  <div id="mobile-nav" class="hidden md:hidden border-t border-black/10 px-6 py-6 space-y-4 bg-[#fcfaf7]">
+    <a href="home.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Home</a>
+<a href="work.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Work</a>
+<a href="services.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Services</a>
+<a href="contract.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-100 underline underline-offset-8 decoration-[#c6a87c]">Contract</a>
+<a href="journal.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Journal</a>
+<a href="book.html" class="font-sansx text-[11px] tracking-[0.18em] uppercase transition opacity-60 hover:opacity-100">Book</a>
+
+  </div>
+</header>
+
+<main>
+
+<section class="bg-[#0e0e10] text-[#f5f2ed] -mt-[1px]">
+  <div class="mx-auto max-w-[1320px] px-6 md:px-10 py-24 md:py-36 grid md:grid-cols-[1.1fr_0.9fr] gap-16 items-center">
+    <div>
+      <div class="font-sansx text-[10px] tracking-[0.32em] uppercase text-[#c6a87c] mb-6">For Clients</div>
+      <h2 class="font-display text-[44px] md:text-[64px] leading-[0.9] tracking-tight">Fill your catering<br><span class="italic font-light text-[#c6a87c]">contract online</span></h2>
+      <p class="mt-6 max-w-[440px] font-sansx text-[13px] leading-6 text-white/60">Secure your date in minutes. Our digital contract mirrors our 19-clause catering agreement — fully compliant, instantly downloadable.</p>
+      <div class="mt-10 grid grid-cols-3 gap-6 max-w-[440px] border-y border-white/10 py-6">
+        <div><div class="font-display text-[20px]">19 Clauses</div><div class="font-sansx text-[10px] uppercase tracking-widest opacity-40 mt-1">Fully Compliant</div></div>
+        <div><div class="font-display text-[20px]">4 Steps</div><div class="font-sansx text-[10px] uppercase tracking-widest opacity-40 mt-1">2 Min Average</div></div>
+        <div><div class="font-display text-[20px]">Instant PDF</div><div class="font-sansx text-[10px] uppercase tracking-widest opacity-40 mt-1">Print Ready</div></div>
+      </div>
+      <a href="#contract-form" class="mt-10 h-[46px] px-8 inline-flex items-center rounded-full bg-[#c6a87c] text-black font-sansx text-[11px] tracking-[0.18em] uppercase">Fill Contract Online</a>
+    </div>
+    <div class="bg-[#111113] border border-white/10 p-8 rounded-xl">
+      <div class="font-sansx text-[10px] tracking-[0.22em] uppercase opacity-40 mb-6">Preview</div>
+      <div class="bg-[#fcfaf7] text-black p-6 font-sansx text-[13px] leading-6">
+        <div class="font-display text-[18px] mb-4">Catering Services Agreement</div>
+        <div class="space-y-2 opacity-70">
+          <div>Client: ________</div>
+          <div>Event Date: ________</div>
+          <div>Total: USD ____</div>
+        </div>
+        <div class="mt-6 pt-6 border-t border-black/10 flex justify-between items-center">
+          <div class="text-[11px] uppercase tracking-wide opacity-50">Adora Events — 19 Clauses</div>
+          <a href="#contract-form" class="text-[11px] underline">View Clauses</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contract-form" class="mx-auto max-w-[840px] px-6 md:px-10 py-20">
+  <div class="label-micro mb-8">Catering Contract — 4 Steps</div>
+  <form class="space-y-10 bg-white border border-black/10 p-8 md:p-10">
+    <div>
+      <h3 class="font-display text-[28px] mb-6">01 — Client Details</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div><div class="label-micro">Full Name</div><input class="input-underline-light" placeholder="Your full name"></div>
+        <div><div class="label-micro">ID / Reg</div><input class="input-underline-light" placeholder="ID or Company Reg"></div>
+        <div class="md:col-span-2"><div class="label-micro">Address</div><input class="input-underline-light" placeholder="Physical address"></div>
+        <div><div class="label-micro">Phone</div><input class="input-underline-light" placeholder="+263 ..."></div>
+        <div><div class="label-micro">Email</div><input class="input-underline-light" placeholder="email@domain.com"></div>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display text-[28px] mb-6">02 — Event Specification</h3>
+      <div class="space-y-6">
+        <div class="label-micro">Event Type — Select all applicable</div>
+        <div class="flex flex-wrap gap-3">
+          <label class="px-4 py-2 border border-black/10 rounded-full text-[11px] uppercase tracking-wide cursor-pointer hover:border-black/20"><input type="checkbox" class="mr-2">Wedding</label>
+          <label class="px-4 py-2 border border-black/10 rounded-full text-[11px] uppercase tracking-wide cursor-pointer hover:border-black/20"><input type="checkbox" class="mr-2">Lobola</label>
+          <label class="px-4 py-2 border border-black/10 rounded-full text-[11px] uppercase tracking-wide cursor-pointer hover:border-black/20"><input type="checkbox" class="mr-2">Lobo-Wedding</label>
+          <label class="px-4 py-2 border border-black/10 rounded-full text-[11px] uppercase tracking-wide cursor-pointer hover:border-black/20"><input type="checkbox" class="mr-2">Corporate</label>
+          <label class="px-4 py-2 border border-black/10 rounded-full text-[11px] uppercase tracking-wide cursor-pointer hover:border-black/20"><input type="checkbox" class="mr-2">Other</label>
+        </div>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div><div class="label-micro">Venue</div><input class="input-underline-light" placeholder="Event venue"></div>
+          <div><div class="label-micro">Event Date</div><input type="date" class="input-underline-light"></div>
+          <div><div class="label-micro">Time From</div><input type="time" class="input-underline-light"></div>
+          <div><div class="label-micro">Time To</div><input type="time" class="input-underline-light"></div>
+          <div><div class="label-micro">Guest Count</div><input class="input-underline-light" placeholder="e.g. 150"></div>
+          <div><div class="label-micro">Prepared For</div><input class="input-underline-light" placeholder="Host name if different"></div>
+        </div>
+        <div><div class="label-micro">Event Address</div><input class="input-underline-light" placeholder="Full event address"></div>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display text-[28px] mb-6">03 — Terms & Pricing</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div><div class="label-micro">Total Price (USD)</div><input class="input-underline-light" placeholder="USD"></div>
+        <div><div class="label-micro">Deposit (USD)</div><input class="input-underline-light" placeholder="USD"></div>
+        <div><div class="label-micro">Deposit Due Date</div><input type="date" class="input-underline-light"></div>
+        <div><div class="label-micro">Balance Due Date</div><input type="date" class="input-underline-light"></div>
+        <div><div class="label-micro">Menu Change (Days)</div><input class="input-underline-light" value="7"></div>
+        <div><div class="label-micro">Late Interest %</div><input class="input-underline-light" value="2"></div>
+        <div class="md:col-span-2"><div class="label-micro">Allergies / Dietary Restrictions</div><textarea class="input-underline-light min-h-[80px]" placeholder="List any allergies..."></textarea></div>
+        <div class="md:col-span-2"><div class="label-micro">Other notes / Special requests</div><textarea class="input-underline-light min-h-[90px]" placeholder="Special touches..."></textarea></div>
+      </div>
+    </div>
+    <div>
+      <h3 class="font-display text-[28px] mb-6">04 — Signature</h3>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div><div class="label-micro">Client Signature Name</div><input class="input-underline-light" placeholder="Type full name as signature"></div>
+        <div><div class="label-micro">Date</div><input type="date" class="input-underline-light"></div>
+      </div>
+      <div class="mt-10 flex gap-4">
+        <button type="button" class="h-[46px] px-8 rounded-full bg-black text-white font-sansx text-[11px] tracking-[0.18em] uppercase">Generate Contract Preview</button>
+        <button type="button" class="h-[46px] px-8 rounded-full border border-black/20 font-sansx text-[11px] tracking-[0.18em] uppercase">Download Blank DOCX</button>
+      </div>
+    </div>
+  </form>
+</section>
+
+</main>
+
+<footer class="bg-[#0a0a0b] text-[#f5f2ed] border-t border-white/10">
+  <div class="mx-auto max-w-[1320px] px-6 md:px-10 py-16 grid md:grid-cols-[1.5fr_1fr_1fr] gap-12">
+    <div>
+      <div class="font-display text-[22px]">ADORA EVENTS</div>
+      <p class="mt-4 max-w-[320px] font-sansx text-[13px] leading-6 opacity-60">Quiet luxury catering & atmosphere design. Harare, Zimbabwe. Celebrations edited with intention.</p>
+      <div class="mt-8 font-sansx text-[11px] tracking-widest uppercase opacity-30">© 2025 Adora Events — Timeless Celebrations</div>
+    </div>
+    <div>
+      <div class="font-sansx text-[10px] tracking-[0.22em] uppercase text-white/40 mb-6">Contact</div>
+      <div class="space-y-3 font-sansx text-[13px] leading-6">
+        <div>Room 105 1st Floor Sahil Building<br>Robert Mugabe Rd / Angwa Street<br>Harare Zimbabwe</div>
+        <a href="tel:+263718561434" class="block hover:text-[#c6a87c]">Call / WhatsApp: +263 718 561 434</a>
+        <a href="mailto:ethel@adora-events.co.zw" class="block hover:text-[#c6a87c]">EMAIL: ethel@adora-events.co.zw</a>
+      </div>
+    </div>
+    <div>
+      <div class="font-sansx text-[10px] tracking-[0.22em] uppercase text-white/40 mb-6">Studio</div>
+      <div class="space-y-2 font-sansx text-[13px]">
+        <a href="work.html" class="block hover:text-white opacity-60 hover:opacity-100">Work Archive</a>
+        <a href="services.html" class="block hover:text-white opacity-60 hover:opacity-100">Services & Pricing</a>
+        <a href="contract.html" class="block hover:text-white opacity-60 hover:opacity-100">Catering Contract</a>
+        <a href="journal.html" class="block hover:text-white opacity-60 hover:opacity-100">Journal & Notes</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
